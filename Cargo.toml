@@ -1,0 +1,20 @@
+[package]
+name = "linear_regression"
+version = "0.1.0"
+authors = ["lulemair <lulemair@student.42lyon.fr>"]
+edition = "2018"
+
+[[bin]]
+name = "train"
+path = "src/train/main.rs"
+
+[[bin]]
+name = "predict"
+path = "src/predict/main.rs"
+
+[dependencies]
+rust-ini = "0.16.1"
+colored = "2"
+charts = "0.3.0"
+csv = "1.1"
+serde = { version = "1", features = ["derive"] }
