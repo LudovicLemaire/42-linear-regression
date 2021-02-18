@@ -1,0 +1,204 @@
+<svg height="700" viewBox="0 0 1000 700" width="1000" xmlns="http://www.w3.org/2000/svg">
+<g class="g-chart">
+<g class="g-title" transform="translate(500,25)">
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="24px" text-anchor="middle" x="0" y="0">
+Linear Regression 42
+</text>
+</g>
+<g class="x-axis" transform="translate(60,650)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="900" y1="0" y2="0"/>
+<g class="tick" transform="translate(0,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+0
+</text>
+</g>
+<g class="tick" transform="translate(66.518845,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+10
+</text>
+</g>
+<g class="tick" transform="translate(133.03769,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+20
+</text>
+</g>
+<g class="tick" transform="translate(199.55653,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+30
+</text>
+</g>
+<g class="tick" transform="translate(266.07538,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+40
+</text>
+</g>
+<g class="tick" transform="translate(332.59424,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+50
+</text>
+</g>
+<g class="tick" transform="translate(399.11307,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+60
+</text>
+</g>
+<g class="tick" transform="translate(465.63193,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+70
+</text>
+</g>
+<g class="tick" transform="translate(532.15076,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+80
+</text>
+</g>
+<g class="tick" transform="translate(598.6696,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+90
+</text>
+</g>
+<g class="tick" transform="translate(665.1885,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+100
+</text>
+</g>
+<g class="tick" transform="translate(731.70734,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+110
+</text>
+</g>
+<g class="tick" transform="translate(798.22614,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+120
+</text>
+</g>
+<g class="tick" transform="translate(864.745,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+130
+</text>
+</g>
+<text fill="#777" font-family="sans-serif" font-size="14px" text-anchor="middle" transform="rotate(0)" x="450" y="42">
+a
+</text>
+</g>
+<g class="y-axis" transform="translate(60,50)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="0" y1="0" y2="600"/>
+<g class="tick" transform="translate(0,600)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+0
+</text>
+</g>
+<g class="tick" transform="translate(0,538.6503)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+50
+</text>
+</g>
+<g class="tick" transform="translate(0,477.3006)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+100
+</text>
+</g>
+<g class="tick" transform="translate(0,415.95093)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+150
+</text>
+</g>
+<g class="tick" transform="translate(0,354.60123)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+200
+</text>
+</g>
+<g class="tick" transform="translate(0,293.25153)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+250
+</text>
+</g>
+<g class="tick" transform="translate(0,231.90182)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+300
+</text>
+</g>
+<g class="tick" transform="translate(0,170.55215)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+350
+</text>
+</g>
+<g class="tick" transform="translate(0,109.20245)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+400
+</text>
+</g>
+<g class="tick" transform="translate(0,47.852783)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+450
+</text>
+</g>
+<text fill="#777" font-family="sans-serif" font-size="14px" text-anchor="middle" transform="rotate(-90)" x="-300" y="-42">
+b
+</text>
+</g>
+<g class="g-view" transform="translate(60,50)">
+<g>
+<g class="scatter-point" transform="translate(66.518845,477.3006)">
+<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
+</g>
+<g class="scatter-point" transform="translate(133.03769,452.76074)">
+<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
+</g>
+<g class="scatter-point" transform="translate(199.55653,428.22086)">
+<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
+</g>
+<g class="scatter-point" transform="translate(332.59424,379.1411)">
+<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
+</g>
+<g class="scatter-point" transform="translate(598.6696,280.9816)">
+<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
+</g>
+<g class="scatter-point" transform="translate(818.18176,200)">
+<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
+</g>
+<g class="scatter-point" transform="translate(478.93567,325.15338)">
+<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
+</g>
+<g class="scatter-point" transform="translate(259.4235,406.13498)">
+<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
+</g>
+</g>
+<g>
+<g class="line">
+<path d="M0,392.5349 L981.81824,161.81876" fill="none" stroke="#F56C6C" stroke-width="2"/>
+<g class="scatter-point" transform="translate(0,392.5349)">
+<circle cx="0" cy="0" fill="#F56C6C" r="5"/>
+</g>
+<g class="scatter-point" transform="translate(981.81824,161.81876)">
+<circle cx="0" cy="0" fill="#F56C6C" r="5"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

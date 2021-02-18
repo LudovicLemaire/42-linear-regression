@@ -1,6 +1,6 @@
 use charts::{Chart, ScaleLinear, MarkerType, PointLabelPosition, Color, ScatterView, LineSeriesView};
 
-pub fn save_final_chart(data: &Vec<(f64, f64)>, theta_0: f64, theta_1: f64, x_label: String, y_label: String) {
+pub fn save_final_chart(data: &Vec<(f64, f64)>, theta_0: f64, theta_1: f64, labels: &(String, String)) {
 	let width = 1000;
 	let height = 700;
 	let (top, right, bottom, left) = (50, 40, 50, 60);
@@ -15,7 +15,7 @@ pub fn save_final_chart(data: &Vec<(f64, f64)>, theta_0: f64, theta_1: f64, x_la
 		if el.0 > max_x {
 			max_x = el.0;
 		}
-        if el.1 > max_y {
+    if el.1 > max_y {
 			max_y = el.1;
 		}
 	}
@@ -59,12 +59,12 @@ pub fn save_final_chart(data: &Vec<(f64, f64)>, theta_0: f64, theta_1: f64, x_la
         .add_view(&line_view)
 		.add_axis_bottom(&x)
 		.add_axis_left(&y)
-		.add_left_axis_label(x_label)
-		.add_bottom_axis_label(y_label)
-		.save("chart.svg").unwrap();
+		.add_bottom_axis_label(&labels.0)
+		.add_left_axis_label(&labels.1)
+		.save("final_chart.svg").unwrap();
 }
 
-pub fn save_line_chart(data: &Vec<(f64, f64)>, x_label: String, y_label: String) {
+pub fn save_line_chart(data: &Vec<(f64, f64)>, labels: &(String, String)) {
 	let width = 1000;
 	let height = 700;
 	let (top, right, bottom, left) = (90, 40, 50, 60);
@@ -116,7 +116,7 @@ pub fn save_line_chart(data: &Vec<(f64, f64)>, x_label: String, y_label: String)
         .add_view(&line_view)
 		.add_axis_bottom(&x)
 		.add_axis_left(&y)
-		.add_left_axis_label(x_label)
-		.add_bottom_axis_label(y_label)
+		.add_bottom_axis_label(&labels.0)
+		.add_left_axis_label(&labels.1)
 		.save("chart_learning_curve.svg").unwrap();
 }

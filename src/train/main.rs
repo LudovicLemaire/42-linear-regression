@@ -13,14 +13,16 @@ struct Record {
     price: f64,
 }
 
-fn read_from_csv() -> Result<Vec<(f64, f64)>, Box<dyn Error>> {
-	let mut rdr = csv::Reader::from_reader(io::stdin());
+fn read_from_csv() -> Result<(Vec<(f64, f64)>, (String, String)), Box<dyn Error>> {
 	let mut records: Vec<(f64, f64)> = Vec::new();
-	for result in rdr.deserialize() {
-		let record: Record = result?;
-		records.push((record.km, record.price));
-	}
-	Ok(records)
+	let mut rdr = csv::Reader::from_reader(io::stdin());
+
+    for result in rdr.records() {
+        let record = result?;
+		records.push((record[0].parse::<f64>().unwrap(), record[1].parse::<f64>().unwrap()));
+    }
+	let headers = rdr.headers()?;
+    Ok((records, (headers[0].to_string(), headers[1].to_string())))
 }
 
 fn main() {
@@ -28,11 +30,13 @@ fn main() {
     let mut min = f64::MAX;
 
     let records: Vec<(f64, f64)>;
+	let category_names: (String, String);
     let mut learning_curve: Vec<(f64, f64)> = Vec::new();
 	let csv = read_from_csv();
 	match csv {
 		Ok(v) => {
-			records = v
+			records = v.0;
+			category_names = v.1;
 		},
 		Err(e) => {
 			println!("error parsing: {:?}", e);
@@ -50,7 +54,7 @@ fn main() {
 	}
 	let scale: f64 = max - min;
 
-    let rate = 0.1;
+    let rate = 0.01;
     let mut curr_theta_0: f64 = 0.0;
     let mut curr_theta_1: f64 = 0.0;
     let mut tmp_theta_0: f64 = 1.0;
@@ -74,12 +78,9 @@ fn main() {
         curr_theta_0 -= tmp_theta_0;
         curr_theta_1 -= tmp_theta_1;
 
-
         match i {
             100 => {
                 i = 0;
-                // println!("{}: {}, {}", "curr".bright_cyan(), curr_theta_0, curr_theta_1 / scale); // could be used to show evolution of [ax+b]
-                // println!("{}: {}, {}", "slope".bright_cyan(), tmp_theta_0, tmp_theta_1); // 
                 learning_curve.push(( learning_iteration as f64 * 100.0, tmp_theta_0.abs()));
                 learning_iteration += 1;
             }
@@ -89,8 +90,7 @@ fn main() {
         }
     }
 
-    // rescale theta1
-    curr_theta_1 = curr_theta_1 / scale;
+	curr_theta_1 = curr_theta_1 / scale;
 
 	let final_theta_0 = curr_theta_0;
     let final_theta_1 = curr_theta_1;
@@ -98,12 +98,16 @@ fn main() {
     println!("{}: {}", "final_theta_0".bright_green(), final_theta_0);
 	println!("{}: {}", "final_theta_1".bright_green(), final_theta_1);
 
-    save_final_chart(&records, final_theta_0, final_theta_1, "Prix".to_string(), "Kilométrage".to_string());
-    save_line_chart(&learning_curve, "Learning".to_string(), "Iteration".to_string());
+    save_final_chart(&records, final_theta_0, final_theta_1, &category_names);
+	let labels_curve = ("Iteration".to_string(), "Learning".to_string());
+	save_line_chart(&learning_curve, &labels_curve);
 
     let mut conf = Ini::new();
     conf.with_section(Some("thetas"))
         .set("theta_0", final_theta_0.to_string())
         .set("theta_1", final_theta_1.to_string());
+	conf.with_section(Some("categories"))
+        .set("x", category_names.0)
+        .set("y", category_names.1);
     conf.write_to_file("data/theta.ini").unwrap();
 }
