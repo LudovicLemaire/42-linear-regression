@@ -7,68 +7,68 @@ Datas
 </g>
 <g class="x-axis" transform="translate(60,650)">
 <line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="900" y1="0" y2="0"/>
-<g class="tick" transform="translate(36,0)">
+<g class="tick" transform="translate(0,0)">
 <line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
 <text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
-1970
+0
 </text>
 </g>
-<g class="tick" transform="translate(126,0)">
+<g class="tick" transform="translate(90.90908,0)">
 <line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
 <text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
-1975
+1
 </text>
 </g>
-<g class="tick" transform="translate(216,0)">
+<g class="tick" transform="translate(181.81816,0)">
 <line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
 <text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
-1980
+2
 </text>
 </g>
-<g class="tick" transform="translate(306,0)">
+<g class="tick" transform="translate(272.72726,0)">
 <line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
 <text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
-1985
+3
 </text>
 </g>
-<g class="tick" transform="translate(396,0)">
+<g class="tick" transform="translate(363.63632,0)">
 <line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
 <text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
-1990
+4
 </text>
 </g>
-<g class="tick" transform="translate(486.00003,0)">
+<g class="tick" transform="translate(454.54544,0)">
 <line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
 <text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
-1995
+5
 </text>
 </g>
-<g class="tick" transform="translate(576,0)">
+<g class="tick" transform="translate(545.4545,0)">
 <line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
 <text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
-2000
+6
 </text>
 </g>
-<g class="tick" transform="translate(666,0)">
+<g class="tick" transform="translate(636.3636,0)">
 <line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
 <text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
-2005
+7
 </text>
 </g>
-<g class="tick" transform="translate(756,0)">
+<g class="tick" transform="translate(727.27264,0)">
 <line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
 <text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
-2010
+8
 </text>
 </g>
-<g class="tick" transform="translate(846,0)">
+<g class="tick" transform="translate(818.18176,0)">
 <line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="0" y1="0" y2="6"/>
 <text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
-2015
+9
 </text>
 </g>
 <text fill="#777" font-family="sans-serif" font-size="14px" text-anchor="middle" transform="rotate(0)" x="450" y="42">
-Year
+a
 </text>
 </g>
 <g class="y-axis" transform="translate(60,50)">
@@ -79,313 +79,73 @@ Year
 0
 </text>
 </g>
-<g class="tick" transform="translate(0,520)">
+<g class="tick" transform="translate(0,509.0909)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+5
+</text>
+</g>
+<g class="tick" transform="translate(0,418.18182)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+10
+</text>
+</g>
+<g class="tick" transform="translate(0,327.2727)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+15
+</text>
+</g>
+<g class="tick" transform="translate(0,236.36362)">
 <line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
 <text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
 20
 </text>
 </g>
-<g class="tick" transform="translate(0,440)">
+<g class="tick" transform="translate(0,145.45456)">
 <line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
 <text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
-40
+25
 </text>
 </g>
-<g class="tick" transform="translate(0,360)">
+<g class="tick" transform="translate(0,54.54541)">
 <line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
 <text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
-60
-</text>
-</g>
-<g class="tick" transform="translate(0,279.99997)">
-<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
-<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
-80
-</text>
-</g>
-<g class="tick" transform="translate(0,200)">
-<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
-<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
-100
-</text>
-</g>
-<g class="tick" transform="translate(0,120)">
-<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
-<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
-120
-</text>
-</g>
-<g class="tick" transform="translate(0,40)">
-<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1px" x1="0" x2="-6" y1="0" y2="0"/>
-<text dy=".35em" fill="#777" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
-140
+30
 </text>
 </g>
 <text fill="#777" font-family="sans-serif" font-size="14px" text-anchor="middle" transform="rotate(-90)" x="-300" y="-42">
-Score
+b
 </text>
 </g>
 <g class="g-view" transform="translate(60,50)">
 <g>
-<g class="scatter-point" transform="translate(0,256)">
+<g class="scatter-point" transform="translate(90.90908,472.72726)">
 <rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
 </g>
-<g class="scatter-point" transform="translate(36,532)">
+<g class="scatter-point" transform="translate(181.81816,436.36365)">
 <rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
 </g>
-<g class="scatter-point" transform="translate(36,308)">
+<g class="scatter-point" transform="translate(272.72726,400)">
 <rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
 </g>
-<g class="scatter-point" transform="translate(54,440)">
+<g class="scatter-point" transform="translate(363.63632,363.63635)">
 <rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
 </g>
-<g class="scatter-point" transform="translate(90,208.00003)">
+<g class="scatter-point" transform="translate(454.54544,327.2727)">
 <rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
 </g>
-<g class="scatter-point" transform="translate(90,248)">
+<g class="scatter-point" transform="translate(545.4545,290.9091)">
 <rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
 </g>
-<g class="scatter-point" transform="translate(108,212)">
+<g class="scatter-point" transform="translate(636.3636,254.54547)">
 <rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
 </g>
-<g class="scatter-point" transform="translate(144,436)">
+<g class="scatter-point" transform="translate(727.27264,218.18182)">
 <rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
 </g>
-<g class="scatter-point" transform="translate(144,203.99997)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(162,412)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(162,332)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(180,228)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(216,212)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(233.99998,300)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(270,240)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(288,244.00003)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(288,360)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(306,208.00003)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(324,340)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(342,200)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(342,279.99997)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(342,288)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(360,216)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(378,344)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(378,412)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(396,248)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(396,484)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(396,216)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(414,296)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(414,324)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(414,340)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(414,316)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(432,252)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(432,332)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(450,300)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(450,288)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(450,216)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(467.99997,444)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(486.00003,279.99997)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(486.00003,256)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(504,304)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(504,448)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(504,279.99997)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(522,260)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(522,252)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(522,312)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(540,328)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(540,448)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(558,324)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(558,428)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(576,428)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(576,264)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(576,436)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(594,308)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(594,468)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(612,408)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(612,492)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(630,584)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(648,460)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(648,448)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(666,584)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(666,416)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(666,548)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(684,384)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(702,516)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(702,296)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(720,524)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(720,396)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(738,416)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(756,312)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(756,560)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(756,400)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(774,500)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(774,572)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(774,320)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(792,232)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(792,396)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(792,484)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(810,416)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(810,572)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(810,484)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(810,556)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(828,564)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(846,360)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(846,496)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(846,356)">
-<rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
-</g>
-<g class="scatter-point" transform="translate(864,556)">
+<g class="scatter-point" transform="translate(818.18176,200)">
 <rect fill="#409EFF" height="10" width="10" x="-5" y="-5"/>
 </g>
 </g>

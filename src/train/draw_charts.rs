@@ -108,8 +108,9 @@ pub fn save_line_chart(data: &Vec<(f64, f64)>, labels: &(String, String)) {
 		.set_label_visibility(false)
         .load_data(&parsed).unwrap();
 
-	Chart::new()
-		.set_width(width)
+	let mut pute = Chart::new();
+
+	pute.set_width(width)
 		.set_height(height)
 		.set_margins(top, right, bottom, left)
 		.add_title(String::from("Learning curve"))
@@ -119,4 +120,5 @@ pub fn save_line_chart(data: &Vec<(f64, f64)>, labels: &(String, String)) {
 		.add_bottom_axis_label(&labels.0)
 		.add_left_axis_label(&labels.1)
 		.save("chart_learning_curve.svg").unwrap();
+
 }
