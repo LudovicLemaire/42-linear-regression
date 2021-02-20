@@ -3,12 +3,16 @@ use std::process;
 use std::io;
 use std::io::Write;
 use colored::*;
+mod utils;
+use utils::DataMM;
+use utils::{normalize_elem, denormalize_elem, error_invalid_key};
 
 fn main() {
-	let mut theta_0:f32 = 0.0;
-	let mut theta_1:f32 = 0.0;
+	let mut theta_0:f64 = 0.0;
+	let mut theta_1:f64 = 0.0;
 	let mut label_x: Option<String> = None;
 	let mut label_y: Option<String> = None;
+	let mut mm = DataMM { min_0: 0.0, max_0: 0.0, min_1: 0.0, max_1: 0.0 };
 
 	let file = Ini::load_from_file("./data/theta.ini").unwrap();
 	for (s, prop) in file.iter() {
@@ -18,20 +22,19 @@ fn main() {
 				"thetas" => {
 					match k {
 						"theta_0" => {
-							theta_0 = v.parse::<f32>().unwrap_or_else(|e| {
+							theta_0 = v.parse::<f64>().unwrap_or_else(|e| {
 								println!("{}: {}: {}", "error".red().bold(), k, e);
 								process::exit(1);
 							})
 						}
 						"theta_1" => {
-							theta_1 = v.parse::<f32>().unwrap_or_else(|e| {
+							theta_1 = v.parse::<f64>().unwrap_or_else(|e| {
 								println!("{}: {}: {}", "error".red().bold(), k, e);
 								process::exit(1);
 							})
 						}
 						_ => {
-							println!("{}: invalid key [{}] in section [{}] in .ini file", "error".red().bold(), k, section);
-							process::exit(1);
+							error_invalid_key(section, k);
 						}
 					}
 				}
@@ -44,8 +47,38 @@ fn main() {
 							label_y = Some(v.to_string());
 						}
 						_ => {
-							println!("{}: invalid key [{}] in section [{}] in .ini file", "error".red().bold(), k, section);
-							process::exit(1);
+							error_invalid_key(section, k);
+						}
+					}
+				}
+				"denormalize" => {
+					match k {
+						"min_0" => {
+							mm.min_0 = v.parse::<f64>().unwrap_or_else(|e| {
+								println!("{}: {}: {}", "error".red().bold(), k, e);
+								process::exit(1);
+							})
+						}
+						"max_0" => {
+							mm.max_0 = v.parse::<f64>().unwrap_or_else(|e| {
+								println!("{}: {}: {}", "error".red().bold(), k, e);
+								process::exit(1);
+							})
+						}
+						"min_1" => {
+							mm.min_1 = v.parse::<f64>().unwrap_or_else(|e| {
+								println!("{}: {}: {}", "error".red().bold(), k, e);
+								process::exit(1);
+							})
+						}
+						"max_1" => {
+							mm.max_1 = v.parse::<f64>().unwrap_or_else(|e| {
+								println!("{}: {}: {}", "error".red().bold(), k, e);
+								process::exit(1);
+							})
+						}
+						_ => {
+							error_invalid_key(section, k);
 						}
 					}
 				}
@@ -114,15 +147,15 @@ fn main() {
         process::exit(1);
     });
 	
-	let user_input_nb = user_input_nb.trim().parse::<f32>().unwrap_or_else(|e| {
+	let user_input_nb = user_input_nb.trim().parse::<f64>().unwrap_or_else(|e| {
 		println!("{}: {}", "error".red().bold(), e);
 		process::exit(1);
 	});
 
-	let prediction: f32;
+	let prediction: f64;
 	match category_nb {
-		"0" => prediction = theta_0 + theta_1 * user_input_nb,
-		_ => prediction = (user_input_nb - theta_0) / theta_1
+		"0" => prediction = denormalize_elem(theta_0 + theta_1 * normalize_elem(user_input_nb as f64, mm.min_0, mm.max_0), mm.min_1, mm.max_1),
+		_ => prediction = denormalize_elem((normalize_elem(user_input_nb as f64, mm.min_1, mm.max_1) - theta_0) / theta_1, mm.min_0, mm.max_0)
 	}
 	println!("{} {}: {}", "\nExpected".bright_green(), category_predicted.bright_green(), prediction);
 }

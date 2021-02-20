@@ -1,16 +1,9 @@
 use std::process;
-use serde::Deserialize;
 use std::io;
 use std::error::Error;
 use colored::*;
 mod draw_chart;
 use draw_chart::{save_chart};
-
-#[derive(Debug, Deserialize)]
-struct Record {
-    km: f64,
-    price: f64,
-}
 
 fn read_from_csv() -> Result<(Vec<(f64, f64)>, (String, String)), Box<dyn Error>> {
 	let mut records: Vec<(f64, f64)> = Vec::new();
@@ -38,7 +31,6 @@ fn main() {
 			process::exit(1);
 		},
 	}
-
     save_chart(&records, &category_names);
-	println!("Chart has been drawn {}", "successfully.".bright_green())
+	println!("\nChart has been drawn {}", "successfully.".bright_green())
 }

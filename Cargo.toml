@@ -16,10 +16,6 @@ path = "src/predict/main.rs"
 name = "show"
 path = "src/show/main.rs"
 
-[[bin]]
-name = "test"
-path = "src/test/main.rs"
-
 [dependencies]
 rust-ini = "0.16.1"
 colored = "2"
