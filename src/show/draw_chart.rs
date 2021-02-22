@@ -48,5 +48,5 @@ pub fn save_chart(data: &Vec<(f64, f64)>, labels: &(String, String)) {
 		.add_axis_left(&y)
 		.add_bottom_axis_label(&labels.0)
 		.add_left_axis_label(&labels.1)
-		.save("chart.svg").unwrap();
+		.save("charts/chart.svg").unwrap();
 }
