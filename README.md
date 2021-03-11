@@ -9,11 +9,6 @@ Regarder [subject.pdf](fr.subject.pdf) pour plus d'informations.
 ## Requirements:
 * `rust`
 * `cargo`
-* `rust-ini = "0.16.1"`
-* `colored = "2"`
-* `charts = "0.3.0"`
-* `csv = "1.1.5"`
-* `serde = { version = "1", features = ["derive"] }`
 
 ## Setup:
 ```
@@ -47,4 +42,4 @@ cargon run --bin predict
 ```
 |Linear Regression                                       |
 |--------------------------------------------------------|
-|![chat_final](charts/chat_final.svg)                    |
+|![chart_final](charts/chart_final.svg)                    |
