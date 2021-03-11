@@ -11,6 +11,8 @@ pub fn save_chart(data: &Vec<(f64, f64)>, labels: &(String, String)) {
 
     let mut max_x = f32::MIN;
     let mut max_y = f32::MIN;
+	let mut min_x = f32::MAX;
+    let mut min_y = f32::MAX;
     for el in &parsed {
 		if el.0 > max_x {
 			max_x = el.0;
@@ -18,13 +20,19 @@ pub fn save_chart(data: &Vec<(f64, f64)>, labels: &(String, String)) {
         if el.1 > max_y {
 			max_y = el.1;
 		}
+		if el.0 < min_x {
+			min_x = el.0;
+		}
+        if el.1 < min_y {
+			min_y = el.1;
+		}
 	}
 
 	let x = ScaleLinear::new()
-		.set_domain(vec![0 as f32, max_x * 1.1])
+		.set_domain(vec![min_x as f32, max_x])
 		.set_range(vec![0, width - left - right]);
 	let y = ScaleLinear::new()
-		.set_domain(vec![0 as f32, max_y * 1.5])
+		.set_domain(vec![min_y as f32, max_y])
 		.set_range(vec![height - top - bottom, 0]);
 	
 	// Create Scatter series view that is going to represent the data.
