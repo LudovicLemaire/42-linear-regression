@@ -19,7 +19,7 @@ cargo build
 
 ## Show datas:
 ```
-cargon run --bin show < ./data/SacramentocrimeJanuary2006.csv
+cargo run --bin show < ./data/SacramentocrimeJanuary2006.csv
 ```
 |Show datas on a graph                                                |
 |---------------------------------------------------------------------|
@@ -38,7 +38,7 @@ cargo run --bin train < ./data/data.csv
 
 ## Predict phase:
 ```
-cargon run --bin predict
+cargo run --bin predict
 ```
 |Linear Regression                                       |
 |--------------------------------------------------------|
